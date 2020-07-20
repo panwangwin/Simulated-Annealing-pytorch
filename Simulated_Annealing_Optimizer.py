@@ -7,6 +7,8 @@
 import torch
 import torch.optim as optim
 import copy
+import math
+
 
 class SimulatedAnealling(optim.Optimizer):
     def __init__(self,params,init_temp,cooling,lr,model,loss_fn,y):
@@ -34,14 +36,14 @@ class SimulatedAnealling(optim.Optimizer):
             loss1=loss_fn(result,y)
             old_params=copy.deepcopy(group['params'])  # store old params
             for p in group['params']:
-                d_p=torch.rand(p.shape)
-                p.data=p.data+d_p*lr                   # update params
+                d_p=torch.rand(p.shape)-0.5*torch.ones(p.shape)
+                p.data=p.data+d_p*lr*math.log(max(math.exp(1),temp))                   # update params
             new_result=model()
             loss2=loss_fn(new_result,y)
             loss=loss2
             if ((loss2>loss1) and (torch.Tensor(1).uniform_()>((loss1 - loss2) / temp).exp())):
                 loss=loss1
                 for i,each in enumerate(group['params']):
-                    each.data=old_params[i].data
+                    each.data=old_params[i].data       # restore old params if condition satisfied
             group['temp']=temp/cooling                 # cooling
         return loss
