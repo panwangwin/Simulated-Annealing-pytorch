@@ -23,6 +23,8 @@ self.optimizer=SimulatedAnealling(params=model.parameters(),init_temp=args.init_
 ```
 ### Algorithm
 The procedure of the algorithm can be described as follow：
+![avatar](./fig/Algorithm.png)
 ### Demo
-demo.py provides a little demo describes how optimizer could be used.
+demo.py provides a little demo describes how optimizer could be used. We want to find the minimum of a polynomial function 
+$ f(x)=\frac{1}{10}(x-2)(x-1)(x+1)(x+2)(x+3)(x+4) $ Followed is a .gif shows how minimum is found by Simulated Annealing Algorithm. 
 ![avatar](./fig/test_animation.gif)
