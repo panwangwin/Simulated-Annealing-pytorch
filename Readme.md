@@ -26,5 +26,5 @@ The procedure of the algorithm can be described as follow：
 ![image](./fig/Algorithm.png)
 ### Demo
 demo.py provides a little demo describes how optimizer could be used. We want to find the minimum of a polynomial function 
-![1](http://latex.codecogs.com/svg.latex?\f(x)=\frac{1}{10}(x-2)(x-1)(x+1)(x+2)(x+3)(x+4)$) Followed is a .gif shows how minimum is found by Simulated Annealing Algorithm. 
+![1](http://latex.codecogs.com/svg.latex?\\f(x)=\frac{1}{10}(x-2)(x-1)(x+1)(x+2)(x+3)(x+4)) Followed is a .gif shows how minimum is found by Simulated Annealing Algorithm. 
 ![image](./fig/test_animation.gif)
