@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2a40ed76-47b5-431b-9a83-9790ec3fad72" name="Default Changelist" comment="Optimize the code.&#10;Add more details to Readme.md.">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Readme.md" beforeDir="false" afterPath="$PROJECT_DIR$/Readme.md" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -40,8 +41,8 @@
         <entry file="file://$PROJECT_DIR$/Readme.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
-              <first_editor relative-caret-position="330">
-                <caret line="22" column="3" selection-start-line="22" selection-start-column="3" selection-end-line="22" selection-end-column="3" />
+              <first_editor relative-caret-position="450">
+                <caret line="30" lean-forward="true" selection-start-line="30" selection-end-line="30" />
               </first_editor>
               <second_editor />
             </state>
@@ -197,7 +198,7 @@
       <updated>1594874543456</updated>
       <workItem from="1594874545018" duration="4989000" />
       <workItem from="1594914799133" duration="2016000" />
-      <workItem from="1595129332704" duration="10467000" />
+      <workItem from="1595129332704" duration="11094000" />
     </task>
     <task id="LOCAL-00001" summary="1st version of Simulated Annealing pytorch">
       <created>1594915910581</created>
@@ -217,7 +218,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="17472000" />
+    <option name="totallyTimeSpent" value="18099000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -230,6 +231,7 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-167" y="-1027" width="1680" height="949" extended-state="0" />
+    <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.18681319" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -352,8 +354,8 @@
     <entry file="file://$PROJECT_DIR$/Readme.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
-          <first_editor relative-caret-position="330">
-            <caret line="22" column="3" selection-start-line="22" selection-start-column="3" selection-end-line="22" selection-end-column="3" />
+          <first_editor relative-caret-position="450">
+            <caret line="30" lean-forward="true" selection-start-line="30" selection-end-line="30" />
           </first_editor>
           <second_editor />
         </state>
